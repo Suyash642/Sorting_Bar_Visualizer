@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0; /*top right bottom left*/
+    line-height: 1.4; /*Difference of space between two lines*/
+}
+
+.row{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding : 10px;
+    justify-content: center, space-evenly;
+}
+
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 95vw;
+    height: 90vh;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10vw;
+    transition: 0.1s all ease;
+}
